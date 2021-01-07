@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Binary File API Execution Test Suite]">
+  <test name="API Request Test(failed)">
+    <parameter name="fileName" value="positiveTest.bin"/>
+    <classes>
+      <class name="com.org.Test.TestRunner">
+        <methods>
+          <include name="setUp"/>
+          <include name="testBinaryExecutionAPI" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.org.Test.TestRunner -->
+    </classes>
+  </test> <!-- API Request Test(failed) -->
+</suite> <!-- Failed suite [Binary File API Execution Test Suite] -->
